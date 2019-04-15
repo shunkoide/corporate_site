@@ -9,7 +9,8 @@
 </head>
 
 <body>
-    
+
+    <div class="container">
         <div class="header">
             <h1>Example Corporation</h1>
         </div>
@@ -68,31 +69,64 @@
         <h2>Join us</h2>
         <p>子供の時の愛読書は「西遊記」が第一である。これ等は今日でも僕の愛読書である。
         <br>   
-        比喩談としてこれほどの傑作は、西洋には一つもないであらうと思ふ。</p>    
+        比喩談としてこれほどの傑作は、西洋には一つもないであらうと思ふ。</p>        
 
+        
         <form>
-            <div class="item">
-                <label class="label">お名前</label>
-                <input class="inputs" type="text" name="name">
-            </div>
-                    
-            <div class="item">
-                <label class="label">GitHubのユーザー名</label>
-                <input class="inputs" type="text" name="user_name">
-            </div>
-                    
-            <div class="item">
-                 <label class="label">自己紹介文</label>
-                 <textarea class="inputs"></textarea>
-             </div>
-                  
-             <div class="btn-area">
-                <input type="submit" value="応募する">
-             </div>          
+            <dl>
+                
+                <dt><span>お名前</span></dt>
+                <dd>
+                    <input type="text" name="name">
+                </dd>
+
+                <dt><span>GitHubのユーザー名</span></dt>
+                <dd>
+                    <input type="text" name="name">
+                </dd>
+
+                <dt>自己紹介文</dt>
+                <dd>
+                  <textarea name="message" class="message"></textarea>
+                </dd>
+
+                <button type="submit">応募する</button>
+
+            </dl>
+
         </form>
 
 
 
-            </div>    
-        </div>        
+
+
+
+        <!-- <form>
+                <div class="item">
+                    <label class="label">お名前</label>
+                    <input class="inputs" type="text" name="name">
+                </div>
+                        
+                <div class="item">
+                    <label class="label">GitHubのユーザー名</label>
+                    <input class="inputs" type="text" name="user_name">
+                </div>
+                        
+                <div class="item">
+                     <label class="label">自己紹介文</label>
+                     <textarea class="inputs"></textarea>
+                 </div>
+                      
+                 <div class="btn-area">
+                    <input type="submit" value="応募する">
+                 </div>          
+            </form> -->
+
+
+
+
+
     </div>
+
+</body>
+</html>
