@@ -1,4 +1,114 @@
-html, body {
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-image: url(anthony-delanoix-222456-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0
+}
+
+.component {
+    margin: 30px 30px;
+  }
+
+.explanation {
+    margin: 30px 30px;
   }
   
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+ }
+
+ .flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ } 
+
+ .flexbox > div {
+    margin: 30px;
+  }
+
+.box1 {
+    background-color: #FFFF00;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 40px;
+    border: 2px solid #000;
+}
+
+.box2 {
+    background-color: #5FB404;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 40px;
+    border: 2px solid #000;
+}
+
+.box3 {
+    background-color: #FE9A2E;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 40px;
+    border: 2px solid #000;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ .flexbox:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.box_text {
+    text-align: center;
+}
+ 
+form {
+    padding: 10px;
+  }
+  
+  form div {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0;
+  }
+  
+  form label {
+    min-width: 100px;
+    margin-right: 10px;
+    flex: 1;
+    text-align: right;
+  }
+  
+  @media screen and (max-width: 600px) {
+    form label {
+      text-align: left;
+    }
+  }
+  
+  form input, form textarea {
+    flex: 3;
+    max-width: calc(100vw - 40px);
+  }
+  
+  form button[type=submit] {
+    width: 100%;
+    color: white;
+    background: black;
+  }
