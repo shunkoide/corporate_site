@@ -5,7 +5,7 @@
 }
 
 .header {
-    background-image: url(anthony-delanoix-222456-unsplash.jpg);
+    background-image: url(https://images.unsplash.com/photo-1490376840453-5f616fbebe5b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
     background-size: cover;
     background-position: center;
     padding: 200px 0
@@ -23,6 +23,7 @@
 h1 {
     text-align: center;
     font-size: 50px;
+    color: #ffb6c1;
  }
 
  .flexbox {
@@ -104,11 +105,12 @@ form {
   
   form input, form textarea {
     flex: 3;
-    max-width: calc(100vw - 40px);
+    max-width: calc(100vw - 60px);
   }
   
   form button[type=submit] {
-    width: 100%;
+    width: 80%;
     color: white;
     background: black;
+    margin-left: 100px;
   }
